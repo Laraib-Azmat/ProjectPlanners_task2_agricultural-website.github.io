@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+html {
+    font-size: 62.5%;
+  }
+
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2.5rem;
+}
+
+label{
+    width: 15rem;
+    display: inline-block;
+}
+
+/* HEADER (Nav-Bar) */
+
+.header-main-div{
+    display: flex;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    
+}
+
+.links-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.logo-div{
+    flex: 1 1 10rem;
+}
+.links-div ul{
+    display: flex;
+    list-style: none;
+    font-size: 1.6rem;
+    flex: 1 1 20rem;
+    
+    
+}
+
+.links-div ul a{
+    text-decoration: none;
+    margin: 1rem 1.4rem;
+    color: black;
+    font-family: 'Archivo', sans-serif;
+
+}
+.links-div ul a:hover{
+    text-decoration: none;
+    color: green;
+    padding-top: 3rem;
+    border-top: 2px green solid;
+    
+}
+#main-logo{
+    height: 8rem;
+    width: 35rem;
+    margin-left: 7rem;
+    border-radius: 1rem ;
+    margin-top: 1rem;
+    
+}
+
+
+
+
+/* HOME PAGE */
+
+#Homebody{
+    background-image: url("./Icon and Images/pexels-pixabay-265216.jpg");
+    background-size: calc(100%);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.home{
+    text-align: center;
+    display: flex;
+    flex: 1 1 20rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    background-image: linear-gradient(to right , rgba(35, 76, 24, 0.5), transparent);
+
+}
+.Sideblock{
+    
+    flex: 1 1 20rem;
+    background-image: linear-gradient(to left , rgba(35, 76, 24, 0.5), transparent);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Homepage-buttons{
+    margin: 2rem;
+    padding: 0.5rem 4rem;
+    font-size: 1.8rem;
+    border-radius: 0.3rem;
+    border: none;
+    background-color: white;
+    font-family: 'Archivo', sans-serif;
+    color: green;
+
+}
+
+.Homepage-buttons:hover{
+   
+    background-color: green;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#Homepage-text{
+    margin: 10rem;
+}
+
+#Homepage-text h2{
+    color: white;
+    border-width: 0.5rem;
+    border-color: black;
+    text-shadow: 3px 3px 6px rgb(0, 0, 0);
+}
+
+#Homepage-text h3{
+    margin: 2rem;
+    color: white;
+    border-width: 0.5rem;
+    border-color: black;
+    text-shadow: 4px 4px 5px black;
+
+}
+#Homepage-text h4{
+    margin: 2rem;
+    color: white;
+    border-width: 0.5rem;
+    border-color: black;
+    text-shadow: 4px 4px 5px black;
+    font-size: 1.8rem;
+
+}
+#Homepage-text a{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+}
+
+.icons{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+    padding: 0.3rem;
+    background-color: white;
+    border-radius: 4rem;
+}
+
+.icons-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Solution Section */
+.solution{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-solution{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#Solutions-img{
+    align-items: center;
+    width: 30rem;
+    height: 08rem;
+}
+.main-solution h3{
+    font-family: 'Archivo', sans-serif;
+    font-size: 2rem;
+}
+
+.horizontal-solution{
+    display: flex;
+    
+    flex-direction: row;
+    margin: 3rem;
+}
+
+.solution-text{
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 3rem;
+    text-align: justify;
+    font-family: 'Archivo',sans-serif;
+}
+#solution-img{
+    margin-left: 10rem;
+    width: 55rem;
+    height: 40rem;
+}
+
+.solution-buttons button{
+    margin: 2rem 0rem;
+    padding: 1rem;
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    border-radius: 0.5rem;
+}
+.solution-buttons button:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+/* Values */
+
+.values-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.values-content h3{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+#value-logo{
+    width: 40rem;
+    height: 8rem;
+    margin: 4rem 0rem 0rem 3rem;
+}
+
+
+#way{
+    width:70%;
+    margin: 5rem;
+}
+
+
+.services-content{
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.services-content h3{
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+}
+
+#services-logo{
+    width: 40rem;
+    height: 8rem;
+    margin: 4rem 0rem 0rem 3rem;
+}
+
+#Services-img{
+    width: 70%;
+    margin: 4rem 7rem;
+
+}
+
+/* Partners */
+.partners-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#partners-logo{
+    width: 40rem;
+}
+
+.img-div-partners img{
+    margin: 3rem;
+    height: 20rem;
+
+}
+
+#partner{
+    padding: 1.5rem;
+    background-color: white;
+    border: 2px green solid;
+    border-radius: 0.5rem;
+    color: green;
+    margin: 4rem;
+    font-family: 'Archivo',sans-serif;
+    font-size: 1.5rem;
+    
+}
+#partner:hover{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+}
+
+
+/* Cards */
+
+
+.benefits-head {
+    
+    
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+.benefits-head img{
+    height: 7rem;
+    width:35rem;
+}
+
+  .cards {
+    display: flex;
+    min-height: 80vh;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    margin: auto;
+  }
+  
+  .card {
+    width: 60%;
+    text-align: center;
+    flex: 1 1 20rem;
+    min-height: 40vh;
+    margin: 2rem 0rem;
+    /* box-shadow: 0px 10px 10px rgb(117, 117, 123), 0px 20px 20px rgba(0, 0, 0, 0.1); */
+    
+}
+#benifits-h3{
+    font-size: 1.4rem;
+}
+
+.borders-on{
+    border-right: 1px rgba(0, 128, 0, 0.5) solid;
+}
+.card:hover{
+   background-color: rgba(0, 128, 0, 0.5);
+transition: 0.5s;
+color: white;
+cursor: pointer;
+}
+  
+  .cards img {
+    max-width: 60%;
+    margin: 0rem;
+    border-radius: 5rem;
+  }
+  .card h4,
+  .card p {
+    padding: 1.5rem;
+    line-height: 1;
+    font-size: 1.5rem;
+    font-family: 'Archivo',sans-serif;
+  }
+  
+  .card-icon {
+    background: #ffffff;
+  } 
+
+#benifits-h3{
+    text-align: center;
+    font-family: 'Archivo',sans-serif;
+}
+
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightgrey;
+    min-height: 30vh;
+    flex-wrap: wrap;
+}
+
+.menu ul{
+    list-style: none;
+    font-size:1.4rem ;
+    line-height: 3rem;
+    font-family: 'Archivo',sans-serif;
+}
+.menu ul a{
+    color: black;
+}
+.menu h3{
+    font-family: 'Archivo', sans-serif;
+}
+
+footer{
+    background-color: whitesmoke;
+    min-height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.footerdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 30vh;
+}
+footer h4{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Archivo',sans-serif;
+}
+
+.footerimg{
+    height: 8rem;
+    width: 18rem;
+    margin: 0rem 3rem 3rem 0rem;
+    border-radius: 1rem;
+}
+
+
+@media screen and (max-width: 1150px) {
+.links-div ul{
+    font-size: 1.4rem;
+}
+} 
+
+
+@media screen and (max-width: 1180px) 
+{
+
+.home{
+    flex-wrap: wrap;
+    background-image: linear-gradient(to left , rgba(35, 76, 24, 0.5), transparent);
+}
+.Sideblock{
+    background-image: linear-gradient(to left , rgba(35, 76, 24, 0.0), transparent);
+
+}
+
+.services-content h3{
+    font-size: 1.3rem;
+    text-align: center;
+    font-family: 'Archivo', sans-serif;
+}
+    #Homebody{
+        background-image: url("./Icon and Images/pexels-pixabay-265216.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+.horizontal-solution{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+} 
+    
+
+@media screen and (max-width:1080px){
+
+.solution-buttons button{
+    margin:0.5rem;
+}    
+.Sideblock{
+    margin:3rem;
+}
+#Homepage-text{
+    margin:5rem 3rem 0rem 3rem;
+}
+.footerimg{
+    height: 5rem;
+    width: 12rem;
+    margin: 0rem 2rem 2rem 0rem;
+    border-radius: 1rem;
+}
+
+}
+
+@media screen and (max-width:960px){
+
+    .header-main-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #main-logo{
+        margin-left: 0;
+        height:7rem;
+    }
+    .logo-div{
+        align-items: center;
+        justify-content: center;
+    }
+    .links-div ul a:hover{
+        text-decoration: none;
+        color: green;
+        padding-top: 1rem;
+        border-top: 2px green solid;
+        
+    }
+    .main-solution h3{
+        font-size: 1.3rem;
+    }
+    #solution-img{
+        margin-left:0;
+    }
+    .values-content h3{
+        font-size: 1.2rem;
+    }
+    
+    }
+    
+    @media screen and (max-width: 700px) {
+        .benefits-head img{
+            height: 5rem;
+            width:28rem;
+        }
+        
+    }
+
+    @media screen and (max-width: 360px) {
+        #main-logo{
+            margin-left: 0;
+            height:8rem;
+            width: 28rem;
+        }
+        .card{
+            border-left: 1px solid green ;
+            border-right: 1px solid green;
+        }
+        .img-div-partners img{
+            margin: 3rem;
+            height: 15rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #partners-logo{
+            width: 75%;
+        }
+        #services-logo{
+            width: 75%;
+            margin: 3rem 0rem ;
+        }
+        #value-logo{
+            width: 80%;
+        margin: 3rem 0rem 1rem 0rem ;
+
+        }
+        .values-content{
+            min-height: 70vh;
+        }
+        #Services-img{
+            margin: 0;
+            height: 20rem;
+            width: 35rem;
+        }
+        #solution-img{
+            margin: 0;
+            height: 20rem;
+            width: 30rem;
+        }
+        .services-content{
+            min-height: 70vh;
+        }
+        .menu ul{
+            list-style: none;
+            font-size:1.2rem ;
+            line-height: 3rem;
+            
+        }
+        #way{
+            margin: 2rem 0rem;
+            height: 18rem;
+            width: 35rem;
+        }
+        
+        .menu h3{
+            font-size: 1.5rem;
+        }
+        .main-solution h3{
+            font-size: 1rem;
+            text-align: center;
+            margin: 0rem 2rem;
+        }
+        .solution-text{
+            
+            font-size: 1rem;
+            margin: 3rem;
+            text-align: justify;
+            font-family: 'Archivo',sans-serif;
+        }
+        .horizontal-solution{
+            margin:0;
+        }
+        .solution-buttons{
+            margin: 2rem 0rem;
+        }
+        .solution-buttons button{
+            width: 40%;
+            padding: 0.2rem;
+        }
+        .links-div{
+            width: 30%;
+        }
+        .solution{
+            min-height: 70vh;
+        }
+        .home{
+            min-height: 70vh;
+        }
+        .links-div li{
+           font-size: 0.8rem;
+           
+        }
+        
+        #Homepage-text h2{
+            font-size: 1.5rem;
+        }
+        #Homepage-text h3{
+            font-size: 1.3rem;
+        }
+        #Homepage-text h4{
+            font-size: 1.5rem;
+            margin: 2.5rem;
+        }
+        .icons-div{
+            width: 80%;
+            margin-left: 3.5rem;
+            
+        }
+        
+        .Homepage-buttons{
+            margin: 0.2rem;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+        .Sideblock{
+            margin: 0;
+        }
+
+        
+    }
+    @media screen and (max-width: 408px) {
+        #main-logo{
+            margin-left: 0;
+            height:5rem;
+            width: 20rem;
+        }
+        .card{
+            border-left: 1px solid green ;
+            border-right: 1px solid green;
+        }
+        .img-div-partners img{
+            margin: 3rem;
+            height: 15rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #partners-logo{
+            width: 75%;
+        }
+        #services-logo{
+            width: 75%;
+            margin: 3rem 0rem ;
+        }
+        #value-logo{
+            width: 80%;
+        margin: 3rem 0rem 1rem 0rem ;
+
+        }
+        .values-content{
+            min-height: 70vh;
+        }
+        #Services-img{
+            margin: 0;
+            height: 20rem;
+            width: 35rem;
+        }
+        #solution-img{
+            margin: 0;
+            height: 20rem;
+            width: 30rem;
+        }
+        .services-content{
+            min-height: 70vh;
+        }
+        .menu ul{
+            list-style: none;
+            font-size:1.2rem ;
+            line-height: 3rem;
+            
+        }
+        #way{
+            margin: 2rem 0rem;
+            height: 18rem;
+            width: 35rem;
+        }
+        
+        .menu h3{
+            font-size: 1.5rem;
+        }
+        .main-solution h3{
+            font-size: 1rem;
+            text-align: center;
+            margin: 0rem 2rem;
+        }
+        .solution-text{
+            
+            font-size: 1rem;
+            margin: 3rem;
+            text-align: justify;
+            font-family: 'Archivo',sans-serif;
+        }
+        .horizontal-solution{
+            margin:0;
+        }
+        .solution-buttons{
+            margin: 2rem 0rem;
+        }
+        .solution-buttons button{
+            width: 40%;
+            padding: 0.2rem;
+        }
+        .links-div{
+            width: 30%;
+        }
+        .solution{
+            min-height: 70vh;
+        }
+        .home{
+            min-height: 70vh;
+        }
+        .links-div li{
+           font-size: 0.8rem;
+           
+        }
+        
+        #Homepage-text h2{
+            font-size: 1.5rem;
+        }
+        #Homepage-text h3{
+            font-size: 1.3rem;
+        }
+        #Homepage-text h4{
+            font-size: 1.5rem;
+            margin: 2.5rem;
+        }
+        .icons-div{
+            width: 80%;
+            margin-left: 3.5rem;
+            
+        }
+        
+        .Homepage-buttons{
+            margin: 0.2rem;
+            padding: 0.5rem 1rem;
+            font-size: 1rem;
+        }
+        .Sideblock{
+            margin: 0;
+        }
+
+    }
